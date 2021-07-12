@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Welcome from './Welcome';
 import Counter from './Counter';
 import AddCourse from './AddCourse';
+import Comp1 from './Comp1';
 
 class App extends Component {
   constructor(){
@@ -15,6 +16,7 @@ class App extends Component {
             <Welcome cname="React" />
           </header>
           <AddCourse/>
+          <Comp1/>
         </div>
       )
   }
